@@ -81,6 +81,8 @@ export default combineReducers({
 - En NuevoProducto hago en el onSubmit del form, creo una nueva función
 - Para crear el nuevo producto ejecutaré una función (agregarProducto) en la función del submit pasada la validación
     - Esta función (agregarProducto) tiene que usar el dispatch, lo importo y lo inicializo
+    - Siempre que sea algo del action mandas llamar al dispatch
+    - agregarProducto es unafunción que usa dispatch para comunicarse con las acciones y manda ejecutar esta función
     - El dispatch es una función que toma otra función, le paso el crearNuevoProductoAction
     - Ahora si le doy a submit aparece desde actione en consola
 - Nuevo Producto
